@@ -88,9 +88,9 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [          
                 [
-                    InlineKeyboardButton( "Main Channel", url = "https://t.me/InkaLinks" ),
-                    InlineKeyboardButton("Source Code", url = "https://t.me/+nrNgQ7sT3XQxZTc1")
-                ], [ InlineKeyboardButton("Bot Update", url = "https://t.me/Publicfille") ],
+                    InlineKeyboardButton( "Main Channel", url = "https://t.me/+6PaDSwR7yzIwMjg1" ),
+                    InlineKeyboardButton("Source Code", url = "https://telegra.ph/Source-Code-09-14-3")
+                ], [ InlineKeyboardButton("Bot Update", url = "https://t.me/apna_akatsuki") ],
                 [
                     InlineKeyboardButton("🤖 About Me", callback_data = "about"),
                     InlineKeyboardButton("🔒 Close", callback_data = "close")
@@ -128,7 +128,7 @@ async def not_joined(client: Client, message: Message):
         [
            InlineKeyboardButton(
                 "Join Channel",
-                url = "https://t.me/+8OvF7hDbhD0zNzQ0"),
+                url = "https://t.me/+9OjRprxD9kIyNjM1"),
             InlineKeyboardButton(
                 "Join Channel",
                 url = client.invitelink)
